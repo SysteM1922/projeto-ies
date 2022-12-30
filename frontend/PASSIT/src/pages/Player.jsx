@@ -4,15 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Sidebar } from "../components/Sidebar";
 import { PlayerInfo } from "../components/PlayerInfo";
 import { useParams } from "react-router-dom";
-import ReactLoading from "react-loading";
 import Loading from "../components/Loading";
-
-var name = "Cristiano Ronaldo";
-var age = "36";
-var height = "185";
-var weight = "80";
-var position = "Forward";
-var team = "Juventus";
 
 export function Player() {
   const navigate = useNavigate();
